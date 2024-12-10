@@ -4,22 +4,30 @@ Este repositorio está diseñado para la generación de casos de prueba unitario
 
 ---
 
+## ✨ Características Principales
+
+- Generación de casos de prueba unitarios
+- Soporte para múltiples modelos de lenguaje (GEMMA, LLaMA, Qwen)
+- Preprocesamiento y limpieza de datos
+- Evaluación y métricas de rendimiento
+- Compatibilidad con Google Colab
+
 ## 📂 Estructura del Proyecto
 
-La estructura principal del repositorio es la siguiente:
-generatejunit/
-├── data/
-├── src/
-│   ├── colab/
-│   ├── evaluation/
-│   ├── finetuning/
-│   ├── gemma/
-│   ├── llama/
-│   ├── qwen/
-│   ├── preprocessing/
-│   ├── results/
-├── utils/
-
+```plaintext
+generate-junit-tests/
+├── data/                # Datos para entrenamiento
+├── src/                 # Código fuente principal
+│   ├── colab/           # Scripts para Google Colab
+│   ├── evaluation/      # Scripts de evaluación y métricas
+│   ├── finetuning/      # Scripts de fine-tuning
+│   │   ├── gemma/       # Configuración de GEMMA
+│   │   ├── llama/       # Configuración de LLaMA
+│   │   ├── qwen/        # Configuración de Qwen
+│   ├── preprocessing/   # Preparación y limpieza de datos
+│   ├── results/         # Resultados generados
+├── utils/               # Utilidades generales
+```
 
 ### 🗂️ Carpetas y Archivos
 
@@ -95,6 +103,8 @@ Instala las dependencias con:
 
 ```bash
 pip install -r requirements.txt
+```
 
-🧑‍💻 Autor
-Este proyecto fue desarrollado por [tu nombre o equipo]. Para cualquier consulta, no dudes en contactarnos.
+👩‍💻 Autor
+
+Este proyecto fue desarrollado por [Judiht Rojas](https://github.com/cjudithrb).
